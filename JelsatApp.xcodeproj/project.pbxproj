@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8128834727FC287100FE7D3B /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8128834627FC287000FE7D3B /* ViewController1.swift */; };
+		C92984B227DDBF0100CFE90F /* Environmental Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92984B127DDBF0100CFE90F /* Environmental Setting.swift */; };
+		C92984B427DDC2E100CFE90F /* NetworkEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92984B327DDC2E100CFE90F /* NetworkEndPoint.swift */; };
+		C92984B627DDD6DB00CFE90F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92984B527DDD6DB00CFE90F /* NetworkManager.swift */; };
+		C92984B827DDE40E00CFE90F /* NetWorkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92984B727DDE40E00CFE90F /* NetWorkError.swift */; };
+		C95310B127CE6FB100CD8BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95310B027CE6FB100CD8BEC /* AppDelegate.swift */; };
+		C95310B327CE6FB100CD8BEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95310B227CE6FB100CD8BEC /* SceneDelegate.swift */; };
+		C95310B527CE6FB100CD8BEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95310B427CE6FB100CD8BEC /* ViewController.swift */; };
+		C95310B827CE6FB100CD8BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95310B627CE6FB100CD8BEC /* Main.storyboard */; };
+		C95310BB27CE6FB100CD8BEC /* JelsatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C95310B927CE6FB100CD8BEC /* JelsatApp.xcdatamodeld */; };
+		C95310BD27CE6FB700CD8BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95310BC27CE6FB700CD8BEC /* Assets.xcassets */; };
+		C95310C027CE6FB700CD8BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95310BE27CE6FB700CD8BEC /* LaunchScreen.storyboard */; };
+		C95310CB27CE6FB800CD8BEC /* JelsatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95310CA27CE6FB800CD8BEC /* JelsatAppTests.swift */; };
+		C95310D527CE6FB800CD8BEC /* JelsatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95310D427CE6FB800CD8BEC /* JelsatAppUITests.swift */; };
+		C95310D727CE6FB800CD8BEC /* JelsatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95310D627CE6FB800CD8BEC /* JelsatAppUITestsLaunchTests.swift */; };
+		C95310F327CE75F200CD8BEC /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95310F227CE75F200CD8BEC /* UIKitExtensions.swift */; };
+		C95310F827CE762D00CD8BEC /* Protocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95310F727CE762D00CD8BEC /* Protocal.swift */; };
+		C95310FA27CE763C00CD8BEC /* Protocal Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95310F927CE763C00CD8BEC /* Protocal Extension.swift */; };
+		C95310FE27CE82FE00CD8BEC /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95310FD27CE82FE00CD8BEC /* NetworkMonitor.swift */; };
+		C953110227CE9CFD00CD8BEC /* UIClassExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C953110127CE9CFD00CD8BEC /* UIClassExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C95310C727CE6FB800CD8BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95310A527CE6FB100CD8BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95310AC27CE6FB100CD8BEC;
+			remoteInfo = JelsatApp;
+		};
+		C95310D127CE6FB800CD8BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95310A527CE6FB100CD8BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95310AC27CE6FB100CD8BEC;
+			remoteInfo = JelsatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8128834627FC287000FE7D3B /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		C92984B127DDBF0100CFE90F /* Environmental Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environmental Setting.swift"; sourceTree = "<group>"; };
+		C92984B327DDC2E100CFE90F /* NetworkEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEndPoint.swift; sourceTree = "<group>"; };
+		C92984B527DDD6DB00CFE90F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C92984B727DDE40E00CFE90F /* NetWorkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkError.swift; sourceTree = "<group>"; };
+		C95310AD27CE6FB100CD8BEC /* JelsatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JelsatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95310B027CE6FB100CD8BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C95310B227CE6FB100CD8BEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C95310B427CE6FB100CD8BEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C95310B727CE6FB100CD8BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C95310BA27CE6FB100CD8BEC /* JelsatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JelsatApp.xcdatamodel; sourceTree = "<group>"; };
+		C95310BC27CE6FB700CD8BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C95310BF27CE6FB700CD8BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C95310C127CE6FB700CD8BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95310C627CE6FB800CD8BEC /* JelsatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JelsatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95310CA27CE6FB800CD8BEC /* JelsatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JelsatAppTests.swift; sourceTree = "<group>"; };
+		C95310D027CE6FB800CD8BEC /* JelsatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JelsatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95310D427CE6FB800CD8BEC /* JelsatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JelsatAppUITests.swift; sourceTree = "<group>"; };
+		C95310D627CE6FB800CD8BEC /* JelsatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JelsatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C95310F227CE75F200CD8BEC /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		C95310F727CE762D00CD8BEC /* Protocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocal.swift; sourceTree = "<group>"; };
+		C95310F927CE763C00CD8BEC /* Protocal Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocal Extension.swift"; sourceTree = "<group>"; };
+		C95310FD27CE82FE00CD8BEC /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		C953110127CE9CFD00CD8BEC /* UIClassExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIClassExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95310AA27CE6FB100CD8BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95310C327CE6FB800CD8BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95310CD27CE6FB800CD8BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81E8B1B827FAB78E00A977AE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C92984B027DDBEC100CFE90F /* App Environment  */ = {
+			isa = PBXGroup;
+			children = (
+				C92984B127DDBF0100CFE90F /* Environmental Setting.swift */,
+			);
+			path = "App Environment ";
+			sourceTree = "<group>";
+		};
+		C95310A427CE6FB100CD8BEC = {
+			isa = PBXGroup;
+			children = (
+				C95310AF27CE6FB100CD8BEC /* JelsatApp */,
+				C95310C927CE6FB800CD8BEC /* JelsatAppTests */,
+				C95310D327CE6FB800CD8BEC /* JelsatAppUITests */,
+				C95310AE27CE6FB100CD8BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C95310AE27CE6FB100CD8BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95310AD27CE6FB100CD8BEC /* JelsatApp.app */,
+				C95310C627CE6FB800CD8BEC /* JelsatAppTests.xctest */,
+				C95310D027CE6FB800CD8BEC /* JelsatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C95310AF27CE6FB100CD8BEC /* JelsatApp */ = {
+			isa = PBXGroup;
+			children = (
+				C92984B027DDBEC100CFE90F /* App Environment  */,
+				C95310ED27CE73C900CD8BEC /* Connectivity Monitor */,
+				C95310E827CE716B00CD8BEC /* Launch Screen */,
+				C95310E927CE717B00CD8BEC /* Assets */,
+				C95310EA27CE719000CD8BEC /* DataBase */,
+				C95310E427CE710D00CD8BEC /* Resource */,
+				C95310E627CE712C00CD8BEC /* Utality */,
+				C95310E527CE712300CD8BEC /* Helper Class */,
+				C95310EC27CE71FA00CD8BEC /* WebServices */,
+				C95310EB27CE71B300CD8BEC /* StoryBoard */,
+				C95310E327CE70F600CD8BEC /* Modules */,
+				C95310C127CE6FB700CD8BEC /* Info.plist */,
+			);
+			path = JelsatApp;
+			sourceTree = "<group>";
+		};
+		C95310C927CE6FB800CD8BEC /* JelsatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C95310CA27CE6FB800CD8BEC /* JelsatAppTests.swift */,
+			);
+			path = JelsatAppTests;
+			sourceTree = "<group>";
+		};
+		C95310D327CE6FB800CD8BEC /* JelsatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C95310D427CE6FB800CD8BEC /* JelsatAppUITests.swift */,
+				C95310D627CE6FB800CD8BEC /* JelsatAppUITestsLaunchTests.swift */,
+			);
+			path = JelsatAppUITests;
+			sourceTree = "<group>";
+		};
+		C95310E327CE70F600CD8BEC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C95310E727CE715A00CD8BEC /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C95310E427CE710D00CD8BEC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C95310B027CE6FB100CD8BEC /* AppDelegate.swift */,
+				C95310B227CE6FB100CD8BEC /* SceneDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C95310E527CE712300CD8BEC /* Helper Class */ = {
+			isa = PBXGroup;
+			children = (
+				C95310F627CE761400CD8BEC /* Protocal */,
+			);
+			path = "Helper Class";
+			sourceTree = "<group>";
+		};
+		C95310E627CE712C00CD8BEC /* Utality */ = {
+			isa = PBXGroup;
+			children = (
+				C95310F127CE759A00CD8BEC /* UI Components Extension */,
+			);
+			path = Utality;
+			sourceTree = "<group>";
+		};
+		C95310E727CE715A00CD8BEC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				81E8B1B827FAB78E00A977AE /* Login */,
+				C95310B427CE6FB100CD8BEC /* ViewController.swift */,
+				8128834627FC287000FE7D3B /* ViewController1.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C95310E827CE716B00CD8BEC /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C95310BE27CE6FB700CD8BEC /* LaunchScreen.storyboard */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		C95310E927CE717B00CD8BEC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C95310BC27CE6FB700CD8BEC /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C95310EA27CE719000CD8BEC /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				C95310B927CE6FB100CD8BEC /* JelsatApp.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		C95310EB27CE71B300CD8BEC /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C95310B627CE6FB100CD8BEC /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		C95310EC27CE71FA00CD8BEC /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				C95310F027CE758900CD8BEC /* Network Error */,
+				C95310EF27CE757B00CD8BEC /* Network Endpoint */,
+				C95310EE27CE757300CD8BEC /* Network Manager */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		C95310ED27CE73C900CD8BEC /* Connectivity Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				C95310FD27CE82FE00CD8BEC /* NetworkMonitor.swift */,
+			);
+			path = "Connectivity Monitor";
+			sourceTree = "<group>";
+		};
+		C95310EE27CE757300CD8BEC /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C92984B527DDD6DB00CFE90F /* NetworkManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		C95310EF27CE757B00CD8BEC /* Network Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				C92984B327DDC2E100CFE90F /* NetworkEndPoint.swift */,
+			);
+			path = "Network Endpoint";
+			sourceTree = "<group>";
+		};
+		C95310F027CE758900CD8BEC /* Network Error */ = {
+			isa = PBXGroup;
+			children = (
+				C92984B727DDE40E00CFE90F /* NetWorkError.swift */,
+			);
+			path = "Network Error";
+			sourceTree = "<group>";
+		};
+		C95310F127CE759A00CD8BEC /* UI Components Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C95310F227CE75F200CD8BEC /* UIKitExtensions.swift */,
+				C953110127CE9CFD00CD8BEC /* UIClassExtension.swift */,
+			);
+			path = "UI Components Extension";
+			sourceTree = "<group>";
+		};
+		C95310F627CE761400CD8BEC /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				C95310F727CE762D00CD8BEC /* Protocal.swift */,
+				C95310F927CE763C00CD8BEC /* Protocal Extension.swift */,
+			);
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C95310AC27CE6FB100CD8BEC /* JelsatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95310DA27CE6FB800CD8BEC /* Build configuration list for PBXNativeTarget "JelsatApp" */;
+			buildPhases = (
+				C95310A927CE6FB100CD8BEC /* Sources */,
+				C95310AA27CE6FB100CD8BEC /* Frameworks */,
+				C95310AB27CE6FB100CD8BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JelsatApp;
+			productName = JelsatApp;
+			productReference = C95310AD27CE6FB100CD8BEC /* JelsatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C95310C527CE6FB800CD8BEC /* JelsatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95310DD27CE6FB800CD8BEC /* Build configuration list for PBXNativeTarget "JelsatAppTests" */;
+			buildPhases = (
+				C95310C227CE6FB800CD8BEC /* Sources */,
+				C95310C327CE6FB800CD8BEC /* Frameworks */,
+				C95310C427CE6FB800CD8BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95310C827CE6FB800CD8BEC /* PBXTargetDependency */,
+			);
+			name = JelsatAppTests;
+			productName = JelsatAppTests;
+			productReference = C95310C627CE6FB800CD8BEC /* JelsatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C95310CF27CE6FB800CD8BEC /* JelsatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95310E027CE6FB800CD8BEC /* Build configuration list for PBXNativeTarget "JelsatAppUITests" */;
+			buildPhases = (
+				C95310CC27CE6FB800CD8BEC /* Sources */,
+				C95310CD27CE6FB800CD8BEC /* Frameworks */,
+				C95310CE27CE6FB800CD8BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95310D227CE6FB800CD8BEC /* PBXTargetDependency */,
+			);
+			name = JelsatAppUITests;
+			productName = JelsatAppUITests;
+			productReference = C95310D027CE6FB800CD8BEC /* JelsatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95310A527CE6FB100CD8BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C95310AC27CE6FB100CD8BEC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C95310C527CE6FB800CD8BEC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C95310AC27CE6FB100CD8BEC;
+					};
+					C95310CF27CE6FB800CD8BEC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C95310AC27CE6FB100CD8BEC;
+					};
+				};
+			};
+			buildConfigurationList = C95310A827CE6FB100CD8BEC /* Build configuration list for PBXProject "JelsatApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C95310A427CE6FB100CD8BEC;
+			productRefGroup = C95310AE27CE6FB100CD8BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C95310AC27CE6FB100CD8BEC /* JelsatApp */,
+				C95310C527CE6FB800CD8BEC /* JelsatAppTests */,
+				C95310CF27CE6FB800CD8BEC /* JelsatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95310AB27CE6FB100CD8BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95310C027CE6FB700CD8BEC /* LaunchScreen.storyboard in Resources */,
+				C95310BD27CE6FB700CD8BEC /* Assets.xcassets in Resources */,
+				C95310B827CE6FB100CD8BEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95310C427CE6FB800CD8BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95310CE27CE6FB800CD8BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95310A927CE6FB100CD8BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92984B627DDD6DB00CFE90F /* NetworkManager.swift in Sources */,
+				C95310B527CE6FB100CD8BEC /* ViewController.swift in Sources */,
+				C953110227CE9CFD00CD8BEC /* UIClassExtension.swift in Sources */,
+				C95310B127CE6FB100CD8BEC /* AppDelegate.swift in Sources */,
+				8128834727FC287100FE7D3B /* ViewController1.swift in Sources */,
+				C92984B827DDE40E00CFE90F /* NetWorkError.swift in Sources */,
+				C95310BB27CE6FB100CD8BEC /* JelsatApp.xcdatamodeld in Sources */,
+				C92984B227DDBF0100CFE90F /* Environmental Setting.swift in Sources */,
+				C95310F827CE762D00CD8BEC /* Protocal.swift in Sources */,
+				C95310FE27CE82FE00CD8BEC /* NetworkMonitor.swift in Sources */,
+				C95310FA27CE763C00CD8BEC /* Protocal Extension.swift in Sources */,
+				C95310B327CE6FB100CD8BEC /* SceneDelegate.swift in Sources */,
+				C95310F327CE75F200CD8BEC /* UIKitExtensions.swift in Sources */,
+				C92984B427DDC2E100CFE90F /* NetworkEndPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95310C227CE6FB800CD8BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95310CB27CE6FB800CD8BEC /* JelsatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95310CC27CE6FB800CD8BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95310D527CE6FB800CD8BEC /* JelsatAppUITests.swift in Sources */,
+				C95310D727CE6FB800CD8BEC /* JelsatAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C95310C827CE6FB800CD8BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95310AC27CE6FB100CD8BEC /* JelsatApp */;
+			targetProxy = C95310C727CE6FB800CD8BEC /* PBXContainerItemProxy */;
+		};
+		C95310D227CE6FB800CD8BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95310AC27CE6FB100CD8BEC /* JelsatApp */;
+			targetProxy = C95310D127CE6FB800CD8BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C95310B627CE6FB100CD8BEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95310B727CE6FB100CD8BEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C95310BE27CE6FB700CD8BEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95310BF27CE6FB700CD8BEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95310D827CE6FB800CD8BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C95310D927CE6FB800CD8BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95310DB27CE6FB800CD8BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JelsatApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelsat.JelsatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C95310DC27CE6FB800CD8BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JelsatApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelsat.JelsatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C95310DE27CE6FB800CD8BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelsat.JelsatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JelsatApp.app/JelsatApp";
+			};
+			name = Debug;
+		};
+		C95310DF27CE6FB800CD8BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelsat.JelsatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JelsatApp.app/JelsatApp";
+			};
+			name = Release;
+		};
+		C95310E127CE6FB800CD8BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelsat.JelsatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JelsatApp;
+			};
+			name = Debug;
+		};
+		C95310E227CE6FB800CD8BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jelsat.JelsatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JelsatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95310A827CE6FB100CD8BEC /* Build configuration list for PBXProject "JelsatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95310D827CE6FB800CD8BEC /* Debug */,
+				C95310D927CE6FB800CD8BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95310DA27CE6FB800CD8BEC /* Build configuration list for PBXNativeTarget "JelsatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95310DB27CE6FB800CD8BEC /* Debug */,
+				C95310DC27CE6FB800CD8BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95310DD27CE6FB800CD8BEC /* Build configuration list for PBXNativeTarget "JelsatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95310DE27CE6FB800CD8BEC /* Debug */,
+				C95310DF27CE6FB800CD8BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95310E027CE6FB800CD8BEC /* Build configuration list for PBXNativeTarget "JelsatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95310E127CE6FB800CD8BEC /* Debug */,
+				C95310E227CE6FB800CD8BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C95310B927CE6FB100CD8BEC /* JelsatApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C95310BA27CE6FB100CD8BEC /* JelsatApp.xcdatamodel */,
+			);
+			currentVersion = C95310BA27CE6FB100CD8BEC /* JelsatApp.xcdatamodel */;
+			path = JelsatApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C95310A527CE6FB100CD8BEC /* Project object */;
+}
